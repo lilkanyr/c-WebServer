@@ -1,0 +1,1 @@
+g++ -o "/home/lilykanye/projects/select_2_25/bin/x64/Debug/select_2_25.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack "/home/lilykanye/projects/select_2_25/obj/x64/Debug/源.o"

@@ -1,0 +1,16 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.88.132”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  源.cpp
+C:\Users\lilkanye\source\repos\select_2_25\select_2_25\源.cpp(63,47): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+C:\Users\lilkanye\source\repos\select_2_25\select_2_25\源.cpp(63,47): warning :    63 |                                 int len = read(i, buf, 20);
+C:\Users\lilkanye\source\repos\select_2_25\select_2_25\源.cpp(63,47): warning :       |                                           ~~~~^~~~~~~~~~~~
+C:\Users\lilkanye\source\repos\select_2_25\select_2_25\源.cpp(46,21): warning : unused variable ‘num’ [-Wunused-variable]
+C:\Users\lilkanye\source\repos\select_2_25\select_2_25\源.cpp(46,21): warning :    46 |                 int num = select(maxfd + 1, &rdtp, NULL, NULL,NULL);
+C:\Users\lilkanye\source\repos\select_2_25\select_2_25\源.cpp(46,21): warning :       |                     ^~~
+  正在链接对象
+/home/lilykanye/.bashrc : error : 行 119: 语法错误：未预期的文件结束符
+  select_2_25.vcxproj -> C:\Users\lilkanye\source\repos\select_2_25\select_2_25\bin\x64\Debug\select_2_25.out
